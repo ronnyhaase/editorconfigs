@@ -8,20 +8,11 @@ index_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.coffee]
-[*.html]
-[*.json]
 [*.md]
 trim_trailing_whitespace = false
-[*.{ts,tsx}]
+[*.{js,jsx,ts,tsx}]
 indent_style = tab
 indent_size = 4
-[*.yaml]
-[*.{css,scss,less}]
-[*.{js,jsx}]
-indent_style = tab
-indent_size = 4
-[.*rc]
 [Makefile]
 indent_style = tab
 indent_size = 2
